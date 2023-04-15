@@ -1,0 +1,11 @@
+### simply send a message
+GET http://localhost:8080/publish?name=kim1&message=hello1
+Accept: application/json
+
+### ≈send a message with callback
+GET http://localhost:8080/publish2?name=kim2&message=hello2
+Accept: application/json
+
+### send a message by json
+GET http://localhost:8080/publish3?name=kim3&message=hello3
+Accept: application/json
